@@ -6,68 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pawsitive Features</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo">Logo placeholder</div>
-        <div class="right-links">
-            <ul>
-                <li>Home</li>
-                <li>Adopt</li>
-                <li>About</li>
-            </ul>
-        </div>
-    </header>
+    <div class="container-dark">
+        <header>
+            <div class="logo">Logo placeholder</div>
+            <div class="right-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Adopt</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
     <!-- Hero section -->
-    <div class="section1">
-        <div class="content">
-            <h1>Some text here</h1>
-            <p>More text here</p>
-            <button class="adopt">Adopt</button>
+    <div class="container-dark">
+        <div class="section1">
+            <div class="content">
+                <h1> Pawsitive Features - Join Our Pack, Save A Life</h1>
+                <p>Welcome to Pawsitive Features, a home for dogs in need. Here, we believe that every dog deserves
+                    love, care, and a forever home. Get involved, adopt, volunteer, or donate and be a part of the pack
+                    that makes a difference. Together, we can ensure that no dog is left behind.</p>
+                <button class="adopt"><a href="#">Adopt a dog</a></button>
+            </div>
+            <img class="hero-image" src="/images/dogs-hero-section" alt="">
         </div>
-        <img class="hero-image" src="" alt="">
     </div>
     <!-- Dogs for adoption -->
-    <div class="section2">
-        <h2>Dogs for adoption</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="" alt="">
-                <p><span>Max</span> - is a friendly 4-year-old Golden Retriever. He's well-behaved, loves children, and
-                    is
-                    looking for a family to call his own.</p>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <p><span>Daisy</span> - is a loving 3-year-old Border Collie with a keen intelligence. She thrives in an
-                    active household and enjoys learning new tricks.</p>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <p><span>Charlie</span> - is a gentle 5-year-old Greyhound with a calm demeanor. He's a perfect
-                    companion
-                    for someone looking for a low-energy, affectionate dog.</p>
-            </div>
-            <div class="card">
-                <img src="" alt="">
-                <p><span>Luna</span> - is a playful 1-year-old Beagle with a curious nature. She'll make an excellent
-                    family pet and loves exploring the outdoors.</p>
+    <div class="container-light">
+        <div class="section2">
+            <h2>Dogs for adoption</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="/images/max.jpg" alt="Max">
+                    <p><span>Max</span> - is a friendly 4-year-old Golden Retriever. He's well-behaved, loves children,
+                        and
+                        is
+                        looking for a family to call his own.</p>
+                </div>
+                <div class="card">
+                    <img src="images/daisy.jpg" alt="Daisy">
+                    <p><span>Daisy</span> - is a loving 3-year-old Border Collie with a keen intelligence. She thrives
+                        in an
+                        active household and enjoys learning new tricks.</p>
+                </div>
+                <div class="card">
+                    <img src="images/charlie.jpg" alt="Charlie">
+                    <p><span>Charlie</span> - is a gentle 5-year-old Greyhound with a calm demeanor. He's a perfect
+                        companion
+                        for someone looking for a low-energy, affectionate dog.</p>
+                </div>
+                <div class="card">
+                    <img src="images/luna.jpg" alt="Luna">
+                    <p><span>Luna</span> - is a playful 1-year-old Beagle with a curious nature. She'll make an
+                        excellent
+                        family pet and loves exploring the outdoors.</p>
+                </div>
             </div>
         </div>
     </div>
     <!-- Testimonial -->
-    <div class="section3">
-        <h2>Testimonial</h2>
-        <p>Author name</p>
+    <div class="container-grey">
+        <div class="section3">
+            <p class="testimonial">"When I met Bella, a shy but sweet beagle mix, I knew she was the one for me. The
+                team
+                guided me through every step of the adoption process, making sure Bella and I were a perfect match.
+                Today, Bella is my best friend and the most loving companion I could ever ask for."</p>
+            <p class="author">John Doe - Bella`s father</p>
+        </div>
     </div>
     <!-- CTA -->
-    <div class="section4">
-        <div class="cta">
-            <h3>Bold CTA</h3>
-            <p>Some text</p>
+    <div class="container-light">
+        <div class="section4">
+            <div class="cta">
+                <h3>Join Our Mission Today</h3>
+                <p>Become a part of our compassionate community and transform lives, both canine and human. With your
+                    help, we can give our four-legged friends the love, care, and forever homes they deserve.</p>
+            </div>
+            <button class="sign-up"><a href="#">Get Involved Now</a> </button>
         </div>
-        <button class="sign-up">Sign up</button>
     </div>
     <footer>
         <p>Copyright &#169; Pawsitive Futures 2023</p>
